@@ -5,7 +5,7 @@ using OnePlan.Data.Context;
 
 namespace OnePlan.Data.Dependencies;
 
-public static class StartupDependencies
+public static class Dependencies
 {
     public static void RegisterDependencies(this IServiceCollection services, IConfiguration configuration)
     {
