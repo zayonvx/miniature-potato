@@ -3,13 +3,11 @@ using System.Net;
 
 namespace OnePlan.Business.Enums;
 
-public class ResponseType
-{
     public enum ResponseType
     {
         NotImplemented = -1,
         Success = 1,
-        NotAuthentiated = 2,
+        NotAuthentificated = 2,
         NotAuthorized = 3,
         NotFound = 4,
         FailedValidation = 5,
@@ -28,7 +26,7 @@ public class ResponseType
                     return HttpStatusCode.NotImplemented;
                 case ResponseType.Success:
                     return HttpStatusCode.OK;
-                case ResponseType.NotAuthentiated:
+                case ResponseType.NotAuthentificated:
                     return HttpStatusCode.Unauthorized;
                 case ResponseType.NotAuthorized:
                     return HttpStatusCode.Unauthorized;
