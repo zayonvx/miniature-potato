@@ -1,11 +1,22 @@
 using Microsoft.OpenApi.Models;
+using OnePlan.Core.Middleware;
+using OnePlan.Data;
+using OnePlan.Data.Context;
+using OnePlan.Data.Dependencies;
 
 
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
+ConfigurationManager configurationManager = builder.Configuration;
+
+builder.Services.RegisterDependencies(configurationManager);
+
+builder.Services.SetupAuth();
 // Add services to the container.
-
 builder.Services.AddControllers();
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>

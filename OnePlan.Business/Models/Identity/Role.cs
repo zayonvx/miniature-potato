@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace OnePlan.Business.Models.Identity;
+namespace OnePlan.Business.Models;
 
 public class Role : IdentityRole<int>
 {
