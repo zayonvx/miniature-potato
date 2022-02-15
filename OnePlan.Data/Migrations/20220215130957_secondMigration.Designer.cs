@@ -12,8 +12,8 @@ using OnePlan.Data.Context;
 namespace OnePlan.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220215001735_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20220215130957_secondMigration")]
+    partial class secondMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

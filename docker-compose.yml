@@ -8,9 +8,9 @@ services:
       - root_db
     ports:
       - "7136:7136"
-    restart: always
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+    environment: 
+      - ConnectionStrings__DefaultConnection=Server=host.docker.internal;Port=5432;Database=oneplan;Username=admin;Password=admin123!;
+  
   
   root_db:
     image: postgres:latest
