@@ -7,7 +7,7 @@ services:
     depends_on:
       - root_db
     ports:
-      - "7136:443"
+      - "7136:7136"
     restart: always
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
