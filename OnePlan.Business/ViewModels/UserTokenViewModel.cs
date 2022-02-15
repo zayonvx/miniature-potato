@@ -1,6 +1,6 @@
 namespace OnePlan.Business.ViewModels;
 
-public class UserTokenInfo
+public class UserTokenViewModel
 {
     public int UserId { get; set; }
     

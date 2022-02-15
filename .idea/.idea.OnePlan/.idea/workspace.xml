@@ -28,15 +28,19 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f10f2a1f3bbdbc3696823de50e6726ba2ae7f8cf2e6dfc487a9c0b8c1f7b4/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d96552a597d6ed9ceb1af02a9d5afb6412773318706c8d9394308614647433e/HttpPostAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnePlan.Business/Models/Base/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4ea681aa1df24442c1a5e1e18582b1a2d29ac5bfd41390c94a5d2cc958b5ff/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8271807a61bb8a8540cf6d7a38534480374a4aac934ee4f53d7efdc9aea37ae/IOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnePlan.Business/Models/Base/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43ef1c35f40285d0a456ffe1bb15cb8a4b26ed2738339fefda7de2c96af17/IdentityOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dbdce1e140bc4e69d7e636b3b1eda3539265b8dc5da948369d43de0c28bb1/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/44cad551704bc7dae78cc7717b8b9f9313582aa8e67a6585a69de0cc33b4b8/IServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f10f2a1f3bbdbc3696823de50e6726ba2ae7f8cf2e6dfc487a9c0b8c1f7b4/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/446c52e79003a7fc74f3337e27fd90f72fe1d1859ff86b8c66dfeefbb6c5b/LoggingServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnePlan.Business/Models/Base/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4ea681aa1df24442c1a5e1e18582b1a2d29ac5bfd41390c94a5d2cc958b5ff/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnePlan.Business/Models/Crew.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5aa8a1453a8b652c781535bf3e83fc949db64b4eedce9ce26b5c7d8c7ff22f3b/JwtRegisteredClaimNames.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -140,7 +144,7 @@
       <workItem from="1644786904446" duration="1149000" />
       <workItem from="1644788108941" duration="10408000" />
       <workItem from="1644822273017" duration="14070000" />
-      <workItem from="1644849862009" duration="2540000" />
+      <workItem from="1644849862009" duration="26123000" />
     </task>
     <servers />
   </component>

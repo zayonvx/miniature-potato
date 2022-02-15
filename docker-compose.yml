@@ -1,6 +1,17 @@
 version: '3.8'
 
 services:
+  backeend:
+    image: oneplan-test-app
+    build: .
+    depends_on:
+      - root_db
+    ports:
+      - "7136:443"
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  
   root_db:
     image: postgres:latest
     environment:

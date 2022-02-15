@@ -12,8 +12,8 @@ using OnePlan.Data.Context;
 namespace OnePlan.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220214002552_CrewAndPeople")]
-    partial class CrewAndPeople
+    [Migration("20220215001735_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -258,15 +258,15 @@ namespace OnePlan.Data.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("boolean");
 
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("character varying(256)");
-
-                    b.Property<bool>("isHide")
-                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 
